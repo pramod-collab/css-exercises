@@ -5,7 +5,17 @@
     font-family: verdana, "DejaVu Sans", sans-serif;
 }
 
-/*#even {
+#even {
     color: blue;
     font-size: 36px;
-}*/
+}
+/*selecting third element using chaining of multiple class selector*/
+.odd.three.not-even {
+
+    font-size: 24px;
+
+}
+
+#also-even {
+    background-color: RGB(144, 238, 144);
+}
