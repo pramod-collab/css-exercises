@@ -1,8 +1,19 @@
+
+/* Add display flex to .container to make it as flexible layout and add justiy content and
+align-iems to center*/
 .container {
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display:flex;
+  /* justify-content center makes content to center according to main axis by default
+  main-axis is row */
+  justify-content: center;
+  
+  /* With align-items it center items towards cross axis */
+
+  align-items:center
 }
 
 .box {
